@@ -1,0 +1,66 @@
+html {
+  background-color: black;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+.navigationBar ul {
+  display: flex;
+  justify-content: space-around;
+  font-size: larger;
+  text-transform: uppercase;
+  background-color: rgb(237, 237, 237);
+  margin: 0;
+}
+
+.navigationBar li {
+  list-style-type: none;
+  margin: 15px 0 15px 0;
+}
+
+.navigationBar a {
+  text-decoration: none;
+}
+
+.headerHOne {
+  margin: 10px 0 10px -155px;
+  color: green;
+  font-style: italic;
+}
+
+.Main img {
+  width: 100%;
+  height: 90vh;
+}
+
+.Main p {
+  color: white;
+}
+
+.footerNav {
+  margin: 0;
+  font-size: large;
+}
+
+.navigationBarFooter ul {
+  display: flex;
+  justify-content: space-between;
+  font-size: larger;
+}
+
+.navigationBarFooter li {
+  list-style-type: none;
+}
+
+.navigationBarFooter a {
+  text-decoration: none;
+  color: white;
+}
